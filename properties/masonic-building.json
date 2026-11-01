@@ -1,0 +1,123 @@
+{
+  "slug": "masonic-building",
+  "status": "open",
+  "property": {
+    "name": "The Masonic Building",
+    "address": "101 W Market St, Smithville, TN 37166",
+    "county": "DeKalb",
+    "taxId": "064L D 023.00",
+    "yearBuilt": 1938,
+    "listingUrl": "https://masonic-building.arc-cre.com/"
+  },
+  "landlord": {
+    "legalName": "Center Hill Lodge No. 77",
+    "signer": "Aaron Lester",
+    "signerTitle": "Worshipful Master",
+    "noticeAddress": "101 West Market St, Smithville, TN 37166",
+    "email": "master@chl77.org",
+    "shortName": "the Lodge"
+  },
+  "decision": {
+    "body": "Center Hill Lodge No. 77",
+    "schedule": "Applications are decided at the Lodge's meeting on the first Monday of each month.",
+    "cutoffNote": "Complete applications received by the Tuesday before the meeting are considered at that meeting."
+  },
+  "broker": {
+    "firm": "Blue Raider Realty, LLC",
+    "agent": "Philip Seagraves, CRE",
+    "phone": "(404) 808-0376",
+    "email": "philip@chanpart.com",
+    "represents": "Landlord"
+  },
+  "terms": {
+    "termMonths": 36,
+    "leaseType": "Modified Gross",
+    "landlordPays": [
+      "property taxes",
+      "water"
+    ],
+    "tenantPays": [
+      "electric",
+      "insurance",
+      "maintenance"
+    ],
+    "rentEscalation": null,
+    "advanceRentMonths": {
+      "first": 1,
+      "last": 1
+    },
+    "securityDepositMonths": 1,
+    "condition": "Premises leased in current condition and configuration (as-is)",
+    "improvements": "At tenant's sole expense, only with the Landlord's prior written approval, required permits, and licensed and insured contractors.",
+    "personalGuaranty": {
+      "required": true,
+      "ownershipThresholdPct": 20
+    },
+    "applicationFee": {
+      "amountUsd": 99,
+      "refundable": false,
+      "covers": "Background and credit screening for up to two guarantors",
+      "paymentUrl": null
+    }
+  },
+  "spaces": [
+    {
+      "id": "whole",
+      "label": "Entire space (Suites 1-3)",
+      "sf": 1225,
+      "monthlyRent": 1475,
+      "entrance": "101 W Market St",
+      "mls": "3618643",
+      "realtracsUrl": "https://www.realtracs.com/listings/7620349"
+    },
+    {
+      "id": "suite1",
+      "label": "Suite 1 - Private office with private bath",
+      "sf": 90,
+      "monthlyRent": 130,
+      "entrance": "101 W Market St",
+      "mls": "3618699",
+      "realtracsUrl": "https://www.realtracs.com/listings/7620378"
+    },
+    {
+      "id": "suite2",
+      "label": "Suite 2 - Professional office suite",
+      "sf": 490,
+      "monthlyRent": 725,
+      "entrance": "201 S 4th Street",
+      "mls": "3618703",
+      "realtracsUrl": "https://www.realtracs.com/listings/7620386"
+    },
+    {
+      "id": "suite3",
+      "label": "Suite 3 - Meeting & collaboration suite",
+      "sf": 430,
+      "monthlyRent": 625,
+      "entrance": "101 W Market St",
+      "mls": "3618702",
+      "realtracsUrl": "https://www.realtracs.com/listings/7620388"
+    }
+  ],
+  "combinationRule": {
+    "allOf": [
+      "suite1",
+      "suite2",
+      "suite3"
+    ],
+    "priceAs": "whole"
+  },
+  "propertyAcknowledgments": [
+    "The listing broker is a member of the Landlord (Center Hill Lodge No. 77) and represents the Landlord; a CF 305 personal interest disclosure is on file."
+  ],
+  "transactionDesk": {
+    "lease": "CF 422 Commercial Lease Agreement (Multi-Tenant Facilities)",
+    "guaranty": "CF 443 Commercial Lease Guaranty",
+    "disclosures": [
+      "CF 305 Commercial Personal Interest Disclosure"
+    ]
+  },
+  "delivery": {
+    "packetEmail": "philip@chanpart.com",
+    "ccEmails": []
+  }
+}
