@@ -13,7 +13,8 @@ the active `tasks/` phase file. Then build **steps 1–2 of the Build order in `
    - PDFs: review summary, application, a password-encrypted FCRA authorization per guarantor
      (`@cantoo/pdf-lib`), and the TransactionDesk lease data sheet
    - a `lease_proposals` row with `path = application`, linked contacts and private documents
-   - email to the broker, an applicant confirmation, and the Stripe fee link
+   - email to the broker, an applicant confirmation, and the fee instructions (cash or check payable to the landlord, per
+     the listing's `feePayment`; no online payment for now)
    - port the wizard, signature and PDF patterns from github.com/peasea123/new-ee-pack and
      github.com/peasea123/chl77-petition (copy; don't add a dependency)
 
