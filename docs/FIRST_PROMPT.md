@@ -1,4 +1,4 @@
-# Paste this into a Claude Code session on github.com/peasea123/combs-listing
+# Paste this into a Claude Code session on github.com/peasea123/arc-listing-hub
 
 Read `CLAUDE.md`, `AGENTS.md`, the docs under `docs/` (especially the new `docs/LEASING.md`), and
 the active `tasks/` phase file. Then build **steps 1–2 of the Build order in `docs/LEASING.md`**:
